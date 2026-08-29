@@ -1,0 +1,62 @@
+.questionMain {
+   /* background:
+        linear-gradient(rgba(102, 143, 204, 0.85), rgba(208, 203, 203, 0.65)),
+        url('/image3.jpg');    background-size: cover;
+    background-position: center;
+    /*background-image: url('C:/Users/ZC007/Desktop/copy/client/public/image3.jpg');*/
+    /*background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.examContainer {
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+
+.examText {
+    text-align: start;
+    font-size: 20px;
+    
+    color: black;
+}
+
+.examForm {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+.examBtn{
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out !important;
+
+}
+.examBtn:hover {
+    transform: scale(1.05) !important;
+}
+.passwordToggle {
+    cursor: pointer;
+    margin-right: 0px;
+    margin-top: 0px;
+    position: absolute;
+    right: 10px;
+    top: 60%;
+    transform: translateY(-50%);
+   
+}
+.examBox {
+    height: 20px;
+}

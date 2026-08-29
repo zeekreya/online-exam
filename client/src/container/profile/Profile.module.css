@@ -1,0 +1,77 @@
+.profileMain {
+background:
+        linear-gradient(rgba(102, 143, 204, 0.85), rgba(208, 203, 203, 0.65)),
+        url('/https://storage.googleapis.com/static.storyweaver.org.in/illustrations/58816/large/3.jpg.jpg');   
+         background-size: cover;    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+}
+
+.profileContainer {
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.profileText {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+
+.profileForm {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+.profileBtn{
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out !important;
+
+}
+.profileBtn:hover {
+    transform: scale(1.05) !important;
+}
+.passwordToggle {
+    cursor: pointer;
+    margin-right: 0px;
+    margin-top: 0px;
+    position: absolute;
+    right: 10px;
+    top: 60%;
+    transform: translateY(-50%);
+   
+}
+.toolbar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: auto;    
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}

@@ -1,0 +1,78 @@
+.homeMain {
+    background:
+        linear-gradient(rgba(102, 143, 204, 0.85), rgba(208, 203, 203, 0.65)),
+        url('/image3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.homeContainer {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+
+.homeText {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.homeForm {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.homeBtn {
+    margin-top: 20px;
+  
+    display: inline-block;
+    transition: transform 0.2s ease-in-out !important;
+    
+    height: 80%;
+    width:80%;
+}
+
+.homeBtn:hover {
+    transform: scale(1.05) !important;
+}
+
+
+
+.passwordToggle {
+    cursor: pointer;
+    margin-right: 0px;
+    margin-top: 0px;
+    position: absolute;
+    right: 10px;
+    top: 60%;
+    transform: translateY(-50%);
+
+}
+
+.dropdownToggle {
+    width: 50%;
+    text-align: left;
+}
+
+.toolbar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: auto;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
