@@ -1,7 +1,7 @@
 .profileMain {
 background:
         linear-gradient(rgba(102, 143, 204, 0.85), rgba(208, 203, 203, 0.65)),
-        url('/https://storage.googleapis.com/static.storyweaver.org.in/illustrations/58816/large/3.jpg.jpg');   
+        url('https://storage.googleapis.com/static.storyweaver.org.in/illustrations/58816/large/3.jpg.jpg');   
          background-size: cover;    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
