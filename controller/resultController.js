@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const ResultModel = require("../model/resultModel");
+const ResultModel = require("../model/resultmodel");
 
 const getResult = async (req, res) => {
   try {
